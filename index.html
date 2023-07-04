@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <script defer src="./assets/js/main.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="section_2_1">
+      <form class="message_form"
+        <h1>Welche Nachricht möchtest du weitergeben?</h1>
+        <input type="text" name="input_message" id="input_message" />
+        <button type="submit">Senden</button>
+        <div class="error_message"></div>
+        <h2 class="last_message">Letzte Nachricht:</h2>
+        <div class="message_output"></div>
+      </form>
+    </section>
+    <section class="section_3_2">
+      <form class="disconnect_form">
+        <div>
+          <label for="first_input">Zu trennende Zeichenkette:</label>
+          <input type="text" name="first_input" id="first_input">
+        </div>
+        <div>
+          <label for="second_input">Woran trennen?</label>
+          <input type="text" name="second_input" id="second_input">
+          <input type="radio" name="radio_btn" id="before" checked>
+          <label for="">Davor</label>
+          <input type="radio" name="radio_btn" id="after">
+          <label for="after">Danach</label>
+        </div>
+          <button type="submit">Klick mich</button>
+          <div class="output_div"></div>
+      </form>
+    </section>
+  </body>
+</html>
